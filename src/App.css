@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+body {
+  background-image: url(images/Cricket-Stadium.jpg);
+  background-size: contain;
+  overflow: auto;
+  background-attachment: fixed;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cards-section {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card {
+  background-image: url(images/card_versus.jpg);
+  background-size: 100% 100%;
+  margin-top: 2%;
+  width: 60%;
+  height: 40vh;
+  border: 1px solid black;
+  color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  font-family: "Sansita Swashed", cursive;
+  font-size: 70%;
+  -webkit-box-shadow: 4px -2px 9px 0px #008891;
+  box-shadow: 4px -2px 9px 0px #008891;
+}
+.teams {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.live {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.match-type {
+  margin-top: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50%;
+}
+.team1,
+.team2 {
+  margin-top: 10%;
+}
+.activeClass {
+  color: brown;
 }
 
-.App-link {
-  color: #61dafb;
+/* Players stats  css*/
+#input-with-icon-adornment {
+  /* margin-top: 20%;
+  margin-left: 5%;
+  margin-bottom: 10%; */
+  border-bottom: 2px solid brown;
+  margin-right: 4%;
+}
+.img-section {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Responsiveness */
+@media screen and (max-width: 700px) {
+  h6,
+  button {
+    font-size: 70% !important;
   }
-  to {
-    transform: rotate(360deg);
+  h1 {
+    font-size: 130%;
+  }
+  table {
+    width: 90%;
+  }
+  .img-section {
+    margin-top: 2%;
+  }
+}
+@media screen and (max-width: 500px) {
+  h6,
+  button {
+    font-size: 50% !important;
   }
 }

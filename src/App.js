@@ -1,25 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React, { useEffect, useState } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Home from "./Home";
+import { Navbar } from "./Navbar";
+import UpcomingMatch from "./UpcomingMatch";
+import Recent from "./Recent";
+import Playerstats from "./Playerstats";
+import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+const dotenv = require("dotenv").config();
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <div className="header">
+          <Navbar />
+        </div>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/upcoming" component={UpcomingMatch} />
+          <Route exact path="/recent" component={Recent} />
+          <Route exact path="/playerstats" component={Playerstats} />
+        </Switch>
+      </BrowserRouter>
+    </>
   );
 }
 
