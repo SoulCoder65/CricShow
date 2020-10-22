@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/%60http://SoulCoder65.github.io/CricShow%60/static/css/main.504ea7c0.chunk.css",
+    "main.js": "/%60http://SoulCoder65.github.io/CricShow%60/static/js/main.7046d698.chunk.js",
+    "main.js.map": "/%60http://SoulCoder65.github.io/CricShow%60/static/js/main.7046d698.chunk.js.map",
+    "runtime-main.js": "/%60http://SoulCoder65.github.io/CricShow%60/static/js/runtime-main.412dd4e9.js",
+    "runtime-main.js.map": "/%60http://SoulCoder65.github.io/CricShow%60/static/js/runtime-main.412dd4e9.js.map",
+    "static/js/2.ea69dfe8.chunk.js": "/%60http://SoulCoder65.github.io/CricShow%60/static/js/2.ea69dfe8.chunk.js",
+    "static/js/2.ea69dfe8.chunk.js.map": "/%60http://SoulCoder65.github.io/CricShow%60/static/js/2.ea69dfe8.chunk.js.map",
+    "index.html": "/%60http://SoulCoder65.github.io/CricShow%60/index.html",
+    "precache-manifest.50934dea2cae578f749d880f570f0710.js": "/%60http://SoulCoder65.github.io/CricShow%60/precache-manifest.50934dea2cae578f749d880f570f0710.js",
+    "service-worker.js": "/%60http://SoulCoder65.github.io/CricShow%60/service-worker.js",
+    "static/css/main.504ea7c0.chunk.css.map": "/%60http://SoulCoder65.github.io/CricShow%60/static/css/main.504ea7c0.chunk.css.map",
+    "static/js/2.ea69dfe8.chunk.js.LICENSE.txt": "/%60http://SoulCoder65.github.io/CricShow%60/static/js/2.ea69dfe8.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/%60http://SoulCoder65.github.io/CricShow%60/static/media/card_versus.757a9222.jpg",
+    "static/media/logo.svg": "/%60http://SoulCoder65.github.io/CricShow%60/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.412dd4e9.js",
+    "static/js/2.ea69dfe8.chunk.js",
+    "static/css/main.504ea7c0.chunk.css",
+    "static/js/main.7046d698.chunk.js"
+  ]
+}
